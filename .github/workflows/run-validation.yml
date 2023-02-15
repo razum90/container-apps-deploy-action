@@ -115,7 +115,7 @@ jobs:
     timeout-minutes: 10
 
     env:
-      TEST_CONTAINER_APP_NAME: 'gh-ca-ds-${{ github.run_id }}'
+      TEST_CONTAINER_APP_NAME: 'gh-ca-is-${{ github.run_id }}'
 
     steps:
       - name: Checkout action repository
